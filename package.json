@@ -1,14 +1,14 @@
 {
   "name": "sprinkle-css",
   "version": "1.0.0",
-  "description": "css framework",
+  "description": "A sprinkle of classless CSS",
   "main": "index.js",
   "scripts": {
     "start": "/"
   },
   "keywords": [
     "css",
-    "framework",
+    "library",
     "sprinkle"
   ],
   "author": "11reed",
