@@ -1,6 +1,7 @@
 ![Sprinkle Logo](assets/images/sprinkle-logo-css-white.png)
 
 <h2>A sprinkle of classless CSS</h2>
+<h3>Sprinkle is very small and lightweight at only 1.5 kb</h3>
 
 ## Install
 
