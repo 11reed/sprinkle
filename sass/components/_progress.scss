@@ -1,0 +1,22 @@
+@import "./variables/variables";
+
+progress {
+    border: 0;
+    background: $white;
+    border-radius: 100px;
+  }
+  
+  progress::-moz-progress-bar {
+    border-radius: 100px;
+    background: linear-gradient(to right, rgba(33, 177, 89, .1), rgba(33, 177, 89, 1));
+  }
+  
+  progress::-webkit-progress-bar {
+    background: $white;
+    border-radius: 100px;
+  }
+  
+  progress::-webkit-progress-value {
+    border-radius: 100px;
+    background: linear-gradient(to right, rgba(33, 177, 89, .1), rgba(33, 177, 89, 1));
+  }

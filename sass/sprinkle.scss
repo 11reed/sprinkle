@@ -1,0 +1,22 @@
+@import "./variables/variables";
+
+@import "./components/button";
+@import "./components/form";
+@import "./components/horizontal-rule";
+@import "./components/lists";
+@import "./components/progress";
+@import "./components/table";
+@import "./components/typography";
+
+
+body {
+    max-width: $layout-max-width;
+    padding: $layout-padding;
+    margin: $layout-margin;
+    line-height: $layout-line-height;
+}
+
+picture img {
+    width: 100%;
+    height: auto;
+}

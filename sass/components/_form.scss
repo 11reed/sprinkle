@@ -1,0 +1,22 @@
+@import "./variables/variables";
+
+input, select, textarea {
+    font-family: $default-fonts;
+    background-color: $white;
+    color: $red;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    padding: 10px;
+    border: 1px solid $grey;
+    border-radius: 4px;
+    text-shadow: $text-shadow-default;
+    box-shadow: $box-shadow-default;
+}
+
+input:not([type='checkbox']), select {
+    display: block;
+}
+
+label {
+    font-family: $default-fonts;
+}

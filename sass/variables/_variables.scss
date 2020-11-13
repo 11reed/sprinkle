@@ -1,0 +1,35 @@
+// layout
+$layout-max-width: 800px;
+$layout-padding: 0 10px;
+$layout-margin: 20px auto;
+$layout-line-height: 1.4;
+
+// colors
+$white: #FFFFFF;
+$black: #000000;
+$grey: #CCD1D1;
+$red: #E74C3C;
+$green: #58D68D;
+$lightblue:#EBF5FB;
+
+// font
+$default-fonts: "Helvetica Neue" ,"Helvetica", "Arial" , Sans-serif;
+$font-size: 16px;
+
+// form
+$form-width: 280px;
+
+// button
+$btn-sm: 10px 24px;
+$btn-md: 12px 28px;
+$btn-lg: 14px 40px;
+$btn-xl: 32px 16px;
+$btn-margin: 20px;
+
+// box-shadow default & text-shadow default
+$box-shadow-default: 0px 8px 15px rgba(0, 0, 0, 0.2);
+$text-shadow-default: 0 0.04em 0.04em rgba(0,0,0,0.35);
+
+// lists
+$bullet-none: none;
+$text-dec-none: none;

@@ -1,0 +1,17 @@
+@import "./variables/variables";
+
+table, th, td {
+    border: 3px solid $black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 3px;
+    background-color: $lightblue;
+    font-family: $default-fonts;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    width: 100%;
+}
