@@ -2,7 +2,7 @@
     "name": "sprinkle-css",
     "description": "A sprinkle of classless CSS",
     "main": [
-      "sass/*"
+      "/sass/**/*.scss"
     ],
     "dependencies": {
         "sprinkle-css": "11reed/sprinkle#^1.0.0"
