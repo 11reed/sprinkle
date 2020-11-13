@@ -1,6 +1,6 @@
 {
   "name": "sprinkle-css",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "css framework",
   "main": "index.js",
   "scripts": {
