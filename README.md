@@ -15,6 +15,6 @@ You can copy and paste this into your `<head>` tag:
 
 `https://cdn.jsdelivr.net/gh/11reed/sprinkle@1.0.0/css/sprinkle.min.css`
 
-Alternatively, you can install sprinkle using Bower, which will you enable you to customize the SCSS files:
+Alternatively, you can install Sprinkle using Bower, which will you enable you to customize the SCSS files:
 
 ``bower install 11reed/sprinkle --save``
