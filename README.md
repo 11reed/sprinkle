@@ -4,7 +4,7 @@ A sprinkle of classless CSS
 
 ## Why would you use Sprinkle?
 
-* **Sprinkle is very small and lightweight at only 1.5 kb.**
+* **Sprinkle is very small and lightweight at only 1.5 KB.**
 * **It's easy to use and integrate into any project.**
 * **Styles are simple, yet fully customizable.**
 * **It includes styling for some unique, but useful HTML elements such as ``<progress>``.**
