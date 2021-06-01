@@ -11,10 +11,10 @@ const path = {
 }
 
 function style() {
-    return gulp.src(path.sass);
-    .pipe(sass.sync().on('error', sass.logError));
-    .pipe(cleanCSS({compatibility: 'ie8'}));
-    .pipe(sizereport({gzip: true}));
+    return gulp.src(path.sass)
+    .pipe(sass.sync().on('error', sass.logError))
+    .pipe(cleanCSS({compatibility: 'ie8'}))
+    .pipe(sizereport({gzip: true}))
     .pipe(gulp.dest(path.css));
 }
 
