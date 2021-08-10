@@ -8,14 +8,6 @@
 @import "./components/table";
 @import "./components/typography";
 
-
-body {
-    max-width: $layout-max-width;
-    padding: $layout-padding;
-    margin: $layout-margin;
-    line-height: $layout-line-height;
-}
-
 picture img {
     width: 100%;
     height: auto;
