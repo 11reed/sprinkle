@@ -1,13 +1,18 @@
 @import "./variables/variables";
 
-table, th, td {
-    border: 3px solid $black;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+table, th {
+    border: 1px solid $black;
     border-radius: 3px;
-    background-color: $lightblue;
+    background-color: $green;
     font-family: $default-fonts;
+    padding-top: 30px;
+    text-align: left;
+    line-height: 40px;
+}
+
+td {
+    background-color: $lightblue;
+    border: 1px solid $black;
 }
 
 table {
