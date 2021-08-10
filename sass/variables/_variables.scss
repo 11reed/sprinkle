@@ -3,6 +3,7 @@ $layout-max-width: 800px;
 $layout-padding: 0 10px;
 $layout-margin: 20px auto;
 $layout-line-height: 1.4;
+$border-none: none;
 
 // colors
 $white: #FFFFFF;
@@ -11,6 +12,7 @@ $grey: #CCD1D1;
 $red: #E74C3C;
 $green: #58D68D;
 $lightblue:#EBF5FB;
+$linear-gradient: linear-gradient(to right, rgba(33, 177, 89, .1), rgba(33, 177, 89, 1));
 
 // font
 $default-fonts: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
