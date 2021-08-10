@@ -2,13 +2,13 @@
 
 progress {
     border: 0;
-    background: $white;
+    background: $black;
     border-radius: 100px;
   }
   
   progress::-moz-progress-bar {
     border-radius: 100px;
-    background: linear-gradient(to right, rgba(33, 177, 89, .1), rgba(33, 177, 89, 1));
+    background: $linear-gradient;
   }
   
   progress::-webkit-progress-bar {
@@ -18,5 +18,5 @@ progress {
   
   progress::-webkit-progress-value {
     border-radius: 100px;
-    background: linear-gradient(to right, rgba(33, 177, 89, .1), rgba(33, 177, 89, 1));
+    background: $linear-gradient;
   }
