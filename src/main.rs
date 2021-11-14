@@ -9,7 +9,11 @@ use term_table::{
     table_cell::{Alignment, TableCell},
 };
 
-fn main() -> Result<(), Error> {
+fn main() -> Result<(), Box<grass::Error>> {
+    // let handle_sass = grass::from_path("./scss/", &grass::Options::default())?;
+
+    // println!("{}", handle_sass);
+
     let folder_size = get_size("./").unwrap();
     let result = Byte::from_bytes(folder_size.into());
 
