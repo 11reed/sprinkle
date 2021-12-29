@@ -23,7 +23,7 @@ fn main() -> Result<(), Box<Error>> {
     let data = std::fs::read(sass_path).unwrap();
     handle_sass(&data);
 
-    let folder_size = get_size("./css/").unwrap();
+    let folder_size = get_size("./css/sprinkle.css").unwrap();
     let result = Byte::from_bytes(folder_size.into());
 
     let table = TableBuilder::new().style(TableStyle::extended()).rows(
