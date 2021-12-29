@@ -2,7 +2,6 @@ use std::io::Error;
 use fs_extra::dir::get_size;
 use byte_unit::Byte;
 use colored::*;
-use rsass::{compile_scss_path, output::{Format, Style}};
 use term_table::{
     TableBuilder,
     TableStyle,
