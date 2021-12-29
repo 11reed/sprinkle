@@ -2,6 +2,7 @@ use std::io::Error;
 use fs_extra::dir::get_size;
 use byte_unit::Byte;
 use colored::*;
+use rsass::{compile_scss_path, output::{Format, Style}};
 use term_table::{
     TableBuilder,
     TableStyle,
@@ -9,10 +10,19 @@ use term_table::{
     table_cell::{Alignment, TableCell},
 };
 
-fn main() -> Result<(), Box<grass::Error>> {
-    // let handle_sass = grass::from_path("./scss/", &grass::Options::default())?;
+fn handle_sass(data: &[u8]) {
+    use rsass::{compile_value, output};
+    let format = output::Format {
+        style: output::Style::Compressed,
+        precision: 5,
+    };
+    let _ = compile_value(data, format);
+}
 
-    // println!("{}", handle_sass);
+fn main() -> Result<(), Box<Error>> {
+    let sass_path = "./sass/sprinkle.scss";
+    let data = std::fs::read(sass_path).unwrap();
+    handle_sass(&data);
 
     let folder_size = get_size("./").unwrap();
     let result = Byte::from_bytes(folder_size.into());
