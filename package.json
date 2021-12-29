@@ -4,7 +4,7 @@
   "description": "A sprinkle of classless CSS",
   "main": "index.js",
   "scripts": {
-    "compile-styles": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 ./sass/sprinkle.scss ./css/sprinkle.css"
+    "test": "/"
   },
   "keywords": [
     "css",
@@ -15,9 +15,5 @@
   "license": "MIT",
   "dependencies": {
     "node-sass": "^6.0.1"
-  },
-  "devDependencies": {
-    "ts-node": "^10.4.0",
-    "typescript": "^3.9.10"
   }
 }
