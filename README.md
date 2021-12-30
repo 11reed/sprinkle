@@ -13,7 +13,7 @@ A sprinkle of classless CSS
 
 You can copy and paste this into your `<head>` tag:
 
-`https://cdn.jsdelivr.net/gh/11reed/sprinkle@1.0.0/css/sprinkle.min.css`
+`https://cdn.jsdelivr.net/npm/sprinkle-css@/1.1.0/css/sprinkle.css`
 
 Alternatively, you can install the npm package ``sprinkle-css`` to modify the SCSS files.
 
