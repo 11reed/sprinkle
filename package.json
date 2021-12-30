@@ -4,7 +4,7 @@
   "description": "A sprinkle of classless CSS",
   "main": "index.js",
   "scripts": {
-    "test": "/"
+    "execute": "node index.js"
   },
   "keywords": [
     "css",
@@ -12,8 +12,5 @@
     "sprinkle"
   ],
   "author": "11reed",
-  "license": "MIT",
-  "dependencies": {
-    "node-sass": "^6.0.1"
-  }
+  "license": "MIT"
 }

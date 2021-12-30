@@ -214,7 +214,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "size-report"
+name = "sprinkle"
 version = "0.1.0"
 dependencies = [
  "byte-unit",
