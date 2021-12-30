@@ -15,7 +15,7 @@ You can copy and paste this into your `<head>` tag:
 
 `https://cdn.jsdelivr.net/gh/11reed/sprinkle@1.0.0/css/sprinkle.min.css`
 
-Note: An npm module is currently in progress.
+Alternatively, you can install the npm package ``sprinkle-css`` to modify the SCSS files.
 
 ## Testing
 
